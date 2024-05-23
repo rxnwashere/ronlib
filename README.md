@@ -20,4 +20,5 @@ Thank you :)
 - MySQL
 - PHP
 
-- Aaron Cano/RXN
+
+**Made by** Aarón Cano/rxnwashere
