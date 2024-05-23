@@ -13,7 +13,7 @@ Thank you :)
 - Catalan
 - English
 
-**MARKUP AND PROGRAMMING LANGUAGES**
+**MARKUP, PROGRAMMING LANGUAGES AND OTHERS:**
 - HTML
 - CSS
 - Python
