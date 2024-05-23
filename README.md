@@ -4,6 +4,12 @@ You are free to download everything uploaded to this repository, but please, don
 
 I DON'T TAKE RESPONSIBILITY FOR BAD USAGE OF THE CONTENT UPLOADED HERE!
 
+LANGUAGES:
+-
+- Spanish
+- Catalan
+- English
+
 Thank you :)
 
 - Aaron Cano/RXN
