@@ -17,6 +17,7 @@ Thank you :)
 - HTML
 - CSS
 - Python
+- JavaScript
 - MySQL
 - PHP
 
