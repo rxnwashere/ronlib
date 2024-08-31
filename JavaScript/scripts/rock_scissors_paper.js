@@ -65,24 +65,24 @@ function game () { // One player mode
     }
 }
 
-function twoplayers () {
-    let score1 = 0;
-    let score2 = 0;
-    let play1 = 0;
-    let play2 = 0;
+function twoplayers () { // Two players mode
+    let score1 = 0; // Score for player1
+    let score2 = 0; // Score for player 2
+    let play1 = 0; // Player 1 turn
+    let play2 = 0; // Player 2 turn
     
     let rounds = Number(prompt("How many rounds do you want to play? > "));
     while (rounds < 1) { // The rounds must be 1 or more.
         rounds = Number(prompt("INVALID NUMBER! How many rounds do you want to play? > "));
     }
 
-    for (let i = 0; i < rounds; i++) {
-        play1 = Number(prompt("TURN FOR PLAYER 1\n1 - Rock\n2 - Scissors\n3 - Paper\n>"));
+    for (let i = 0; i < rounds; i++) { // Game starts and repeats the loop during the number of rounds selected.
+        play1 = Number(prompt("TURN FOR PLAYER 1\n1 - Rock\n2 - Scissors\n3 - Paper\n>")); // Player 1 turn
         while (play1 < 0 || play1 > 3) {
-            play1 = Number(prompt("INVALID PLAY! Please select a valid play from the list:\n1 - Rock\n2 - Scissors\n3 - Paper\n>"));
+            play1 = Number(prompt("INVALID PLAY! Please select a valid play from the list:\n1 - Rock\n2 - Scissors\n3 - Paper\n>")); // Prompt while the player 1 turn has an invalid value.
         }
         play1 = plays[play1];
-        for (let j = 0; j < 100; j++) {
+        for (let j = 0; j < 100; j++) { // Hides player 1 play
             console.log("NEXT TURN");
         }
         play2 = Number(prompt("TURN FOR PLAYER 2\n1 - Rock\n2 - Scissors\n3 - Paper\n>"));
@@ -92,31 +92,31 @@ function twoplayers () {
         play2 = plays[play2];
         console.log(`PLAYER 1: ${play1}\nPLAYER 2: ${play2}`);
 
-        if (play1 == play2) {
+        if (play1 == play2) { // Two players played the same number.
             console.log("TIE");
-            i -= 1;
+            i -= 1; // The round doesn't sum the counter.
         }
-        else if (play1 == plays[1] && play2 == plays[2]) {
+        else if (play1 == plays[1] && play2 == plays[2]) { // Player 1 = Rock && Player 2 = Scissors
+            console.log("PLAYER 1 WINS THE ROUND");
+            score1 += 1; // Sums score to player 1
+        }
+        else if (play1 == plays[2] && play2 == plays[3])  { // Player 1 = Scissors && Player 2 = Paper
             console.log("PLAYER 1 WINS THE ROUND");
             score1 += 1;
         }
-        else if (play1 == plays[2] && play2 == plays[3])  {
+        else if (play1 == plays[3] && play2 == plays[1]) { // Player 1 = Paper && Player 2 = Rock
             console.log("PLAYER 1 WINS THE ROUND");
             score1 += 1;
         }
-        else if (play1 == plays[3] && play2 == plays[1]) {
-            console.log("PLAYER 1 WINS THE ROUND");
-            score1 += 1;
-        }
-        else {
+        else { // Any possible play where player 2 wins
             console.log("PLAYER 2 WINS THE ROUND")
-            score2 += 1;
+            score2 += 1; // Sums score to player 2
         }
         
-        if(score > scorebot) {
+        if(score1 > score2) { // If player 1 score is bigger than player 2 score. Player 1 wins, obviously.
             console.log("PLAYER 1 WINS!!!");
         }
-        else {
+        else { // The same but for player 2.
             console.log("PLAYER 2 WINS!!!!");
         }
         break;
@@ -159,7 +159,7 @@ else if (inGame == 2) {
 }
 
 else if (inGame == 3) {
-    console.log("Tutorial");
+    console.log("Tutorial"); // I've not made the tutorial yet, sorrry :(
 }
 
 else {
