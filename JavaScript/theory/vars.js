@@ -34,7 +34,7 @@ const num = 5;
 console.log(num) // 5
 
 // Declarar variables en la misma linea
-let word1 = "Hola ", word2 = "Emma ", word3 = "te ", word4 = "quiero ", word5 = "mucho :3"
+let word1 = "Hola ", word2 = "Aaron ", word3 = "te ", word4 = "quiero ", word5 = "mucho :3" // Egocentrico
 const phrase = word1 + word2 + word3 + word4 + word5
 console.log(phrase)
 
