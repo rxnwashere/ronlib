@@ -18,8 +18,11 @@ Thank you :)
 - CSS
 - Python
 - JavaScript
-- MySQL
-- PHP
+- Java (not yet)
+- C# (not yet)
+- C++ (not yet)
+- MySQL (not yet)
+- PHP (not yet)
 
 
 **Made by** Aarón Cano/rxnwashere
