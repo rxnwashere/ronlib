@@ -1,0 +1,203 @@
+body {
+    background-color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    padding-top: 0.002%;
+}
+
+#titlebox {
+    background-image: url(media/galaxy.jpg);
+    border-radius: 100px;
+    border-style: solid;
+    border-color: aqua;
+    text-align: center;
+    color: aqua;
+}
+
+#titlebox h1{
+    animation-name: title;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+}
+
+#subtitle {
+    text-align: center;
+    color: aqua;
+}
+
+#disclaimer {
+    margin-top: 70px;
+    animation-name: disclaimer;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    text-align: center;
+    font-size: x-large;
+}
+
+#disclaimer a{
+    color: red;
+}
+
+#explorer {
+    animation-name: floating;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+#explorer p {
+    position: absolute;
+}
+
+#text_explorer {
+    border-color: aqua;
+    border-style: solid;
+    border-radius: 2%;
+    color: aqua;
+    text-align: center;
+    width: 500px;
+    height: 100px;
+    background-image: url(media/galaxy.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 70px;
+}
+
+#text_explorer p {
+    margin-top: 30%;
+}
+
+#text_explorer a{
+    color: red;
+}
+
+.directories {
+    margin-top: 10%;
+    margin-left: 50%;
+    background-color: whitesmoke;
+    margin-right: 70px;
+}
+
+#decoration img{
+    position: absolute;
+    height: 500px;
+    width: 692px;
+    margin-left: 760px;
+    margin-top: -80px;
+}
+
+.directories img{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    margin-top: 50px;
+}
+
+.directories img:hover{
+    width: 150px;
+    height: 150px;
+}
+
+#aboutme {
+    color: aqua;
+    text-align: center;
+    margin-top: 120px;
+    background-color: rgb(34, 34, 34);
+    height: 500px;
+    /*border-radius: 20%;*/
+}
+
+#aboutme h2 {
+    margin-top: -2.5%;
+}
+
+#abouttext {
+    border-style: solid;
+    border-color: aqua;
+    width: 500px;
+    height: 390px;
+    margin-left: 12%;
+    margin-top: 3%;
+    background-image: url(./media/galaxy.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#profileicon {
+    animation-name: floating;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    border-style: solid;
+    border-color: aqua;
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    margin-left: 900px;
+    margin-top: -350px;
+    margin-bottom: 15%;
+    background-image: url(./media/mygithubicon.png);
+    background-size: cover;
+}
+
+#profileicon a {
+    position: absolute;
+    margin-top: 220px;
+    margin-left: -57px;
+    color: aqua;
+    text-align: center;
+}
+
+#godown {
+    position: fixed;
+    margin-top: -120px;
+    margin-left: 270px;
+}
+
+#comingsoon {
+    color: aqua;
+    text-align: center;
+}
+
+/* ANIMATIONS */
+
+@keyframes disclaimer {
+    0%{transform: translateX(0px);}
+    50%{transform: translateX(100px);}
+    100%{transform: translateX(0px)}
+}
+
+@keyframes title {
+    0% {
+      -webkit-transform:scaleX(1);
+      transform:scaleX(1)
+    }
+    30% {
+      -webkit-transform:scale3d(1.25,.75,1);
+      transform:scale3d(1.25,.75,1)
+    }
+    40% {
+      -webkit-transform:scale3d(.75,1.25,1);
+      transform:scale3d(.75,1.25,1)
+    }
+    50% {
+      -webkit-transform:scale3d(1.15,.85,1);
+      transform:scale3d(1.15,.85,1)
+    }
+    65% {
+      -webkit-transform:scale3d(.95,1.05,1);
+      transform:scale3d(.95,1.05,1)
+    }
+    75% {
+      -webkit-transform:scale3d(1.05,.95,1);
+      transform:scale3d(1.05,.95,1)
+    }
+    to {
+      -webkit-transform:scaleX(1);
+      transform:scaleX(1)
+    }
+  }
+
+@keyframes floating {
+    0%{transform: translateY(0px);}
+    50%{transform: translateY(50px);}
+    100%{transform: translateY(0px);}
+}

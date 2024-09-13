@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="16mm"
+   height="16mm"
+   viewBox="0 0 16 16"
+   version="1.1"
+   id="svg1"
+   inkscape:export-filename="favicon.svg"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm" />
+  <defs
+     id="defs1">
+    <rect
+       x="8.172368"
+       y="12.258553"
+       width="63.335857"
+       height="59.505058"
+       id="rect1" />
+  </defs>
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       transform="matrix(0.38012092,0,0,0.32617325,-0.31164124,-2.6360809)"
+       id="text1"
+       style="white-space:pre;shape-inside:url(#rect1);fill:#ffffff"><tspan
+         x="8.171875"
+         y="35.591175"
+         id="tspan3"><tspan
+           style="font-weight:bold;font-size:26.6667px;font-family:Calibri;-inkscape-font-specification:'Calibri, Bold'"
+           id="tspan2">RL</tspan></tspan></text>
+    <path
+       style="fill:#ffffff;stroke-width:0.351881"
+       d="M 2.1622725,9.3923712 4.3810461,12.822097 5.8422227,9.6967004 7.8464372,13.010491 9.6202491,9.7691584 11.408242,12.793115 13.243919,9.3923712"
+       id="path1"
+       sodipodi:nodetypes="ccccccc" />
+  </g>
+</svg>

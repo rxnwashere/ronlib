@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="228mm"
+   height="20mm"
+   viewBox="0 0 228 20"
+   version="1.1"
+   id="svg1"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm" />
+  <defs
+     id="defs1">
+    <rect
+       x="10.11279"
+       y="15.891527"
+       width="479.63519"
+       height="43.340527"
+       id="rect6" />
+    <rect
+       x="577.87372"
+       y="14.446843"
+       width="101.1279"
+       height="46.229897"
+       id="rect5" />
+    <rect
+       x="728.12085"
+       y="17.33621"
+       width="56.342686"
+       height="53.45332"
+       id="rect4" />
+  </defs>
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#ff0000;stroke:#000000;stroke-width:0.264999"
+       id="rect1"
+       width="19.494209"
+       height="19.494209"
+       x="208.19972"
+       y="0.38223937" />
+    <rect
+       style="fill:#cccccc;stroke:#000000;stroke-width:0.262423"
+       id="rect1-6"
+       width="19.496784"
+       height="19.114546"
+       x="188.39323"
+       y="0.48417971" />
+    <rect
+       style="fill:#cccccc;stroke:#000000;stroke-width:0.264999;stroke-linecap:round;stroke-linejoin:round"
+       id="rect1-6-0"
+       width="19.494209"
+       height="19.494209"
+       x="168.6722"
+       y="0.3970829" />
+    <rect
+       style="fill:#0000ff;stroke:#000000;stroke-width:0.272512;stroke-linecap:round;stroke-linejoin:round"
+       id="rect2"
+       width="168.94229"
+       height="19.868935"
+       x="-0.37848294"
+       y="0.38599584" />
+    <rect
+       style="fill:#cccccc;stroke:#000000;stroke-width:1.365;stroke-dasharray:none"
+       id="rect3"
+       width="11.467181"
+       height="12.23166"
+       x="192.52791"
+       y="4.0577059" />
+    <text
+       xml:space="preserve"
+       transform="matrix(1.066369,0,0,0.86501613,-565.89862,-17.640764)"
+       id="text3"
+       style="font-weight:bold;font-size:26.6667px;font-family:Calibri;-inkscape-font-specification:'Calibri, Bold';white-space:pre;shape-inside:url(#rect4);fill:#ffffff;stroke:#000000;stroke-width:0.737085;stroke-dasharray:none"><tspan
+         x="728.12109"
+         y="40.6693"
+         id="tspan1">X</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(1.0464283,0,0,0.50324577,-433.0775,-11.02315)"
+       id="text4"
+       style="font-weight:bold;font-size:26.6667px;font-family:Calibri;-inkscape-font-specification:'Calibri, Bold';white-space:pre;shape-inside:url(#rect5);fill:#ffffff;stroke:#000000;stroke-width:2.89134;stroke-dasharray:none"><tspan
+         x="577.87305"
+         y="37.780628"
+         id="tspan2">_</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.53004336,0,0,0.46914421,-3.5981146,-4.7420968)"
+       id="text5"
+       style="font-weight:bold;font-size:26.6667px;font-family:Calibri;-inkscape-font-specification:'Calibri, Bold';white-space:pre;shape-inside:url(#rect6);fill:#ffffff;stroke:#000000;stroke-width:1.33356;stroke-dasharray:none"><tspan
+         x="10.113281"
+         y="39.223988"
+         id="tspan3">RonLib Explorer</tspan></text>
+  </g>
+</svg>
