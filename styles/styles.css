@@ -1,0 +1,105 @@
+@font-face {
+    font-family: "Silkscreen-Regular";
+    src: url('../fonts/Silkscreen/Silkscreen-Regular.tff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Silkscreen-Bold";
+    src: url('../fonts/Silkscreen/Silkscreen-Bold.ttf');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Oxanium";
+    src: url('../fonts/Oxanium/Oxanium-VariableFont_wght.ttf');
+    font-style: normal;
+}
+
+body {
+    font-family: "Oxanium";
+    background-color: black;
+    color: aqua;
+}
+
+header {
+    font-family: "Silkscreen-Bold", sans-serif;
+    text-align: center;
+    border-top: 5px;
+    border-bottom: 5px;
+    border-style: solid;
+    border-color: aqua;
+    background-color: rgb(23, 23, 23);
+}
+
+#disclaimer {
+    margin-top: 2em;
+    text-align: center;
+}
+
+#disclaimer a{
+    font-size: xx-large;
+    color: crimson;
+}
+
+.container {
+    padding-top: 20px;
+    text-indent: 20px;
+    margin-left: 3em;
+}
+
+.container a{
+    color: crimson;
+}
+
+.container h6{
+    font-size: large;
+}
+
+nav {
+    margin-left: 65.5em;
+    margin-top: -40.5em;
+    margin-bottom: 7em;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav li {
+    border-color: aqua;
+    border-width: 2px;
+    border-style: solid;
+    width: 15em;
+    height: 6em;
+    margin-top: 5%;
+    padding-top: 1.5em;
+    text-align: center;
+    background-color: rgb(23, 23, 23);
+}
+  
+nav li:hover {
+    width: 16em;
+    height: 7em;
+}
+nav a {
+    font-size: 1.5em;
+    text-decoration: none;
+    color: aqua;
+}
+
+footer {
+    margin-top: 5em;
+    text-align: center;
+    border-top: 5px;
+    border-bottom: 5px;
+    border-style: solid;
+    border-color: aqua;
+    background-color: rgb(23, 23, 23)
+}
+
+footer a {
+    color: aqua;
+}
