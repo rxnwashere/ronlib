@@ -10,26 +10,32 @@
 <body>
     <header>
         <h1>Ron Lib</h1>
-        <p>My portfolio in a GitHub repository :) </p>
+        <p id="subtitle">My portfolio in a GitHub repository :) </p>
     </header>
+    <nav>
+        <div id="left"></div>
+        <div class="section"></div>
+        <div id="right"></div>
+    </nav>
     <div id="disclaimer">
         <a href="https://github.com/rxnwashere/ronlib/blob/main/README.md">DISCLAIMER</a>
     </div>
     <div class="container">
-        <h6>What is Ron Lib?</h6>
-        <p>Ron Lib is a GitHub repository where I post my personal projects <br>
+        <h6 id="title1">What is Ron Lib?</h6>
+        <p id="p1">Ron Lib is a GitHub repository where I post my personal projects <br>
         and allow other users to download them and use them according to <br>
-        the disclaimer in <a href="https://github.com/rxnwashere/ronlib/blob/main/README.md">README.md</a>, so please, <br>
+        the disclaimer in <a href="README.md">README.md</a>, so please, <br>
         use appropietly my work, if you post a modification of my project <br> please give me credits.</p>
-        <h6>About me</h6>
-        <p>I'm Aaron Cano (known as rxnwashere on the internet), a young Spanish <br> computer technician and web development student. </p>
-        <p>I studied Microinformatic Systems and Networks Vocational Course <br> for 2 years to become a computer technician.</p>
-        <p>In these 2 years I learnt all the basic notions about hardware, software, OS's, <br> office software, networks, domain and different network services, coding and <br> web design and development. </p>
-        <p>Due to be an autodidact person, in my free time I make different little projects <br> that help me to improve my skills as a computer technician and as a programmer <br> and web development. </p>
-        <p>That's the reason behind the creation of Ron Lib, a place where I can upload <br> my class projects and my own ones, and allow everyone to download them, <br> always giving credits to me.</p>
+        <h6 id="title2">About me</h6>
+        <p class="about" id="p2">I'm Aaron Cano (known as rxnwashere on the internet), a young Spanish <br> computer technician and web development student. </p>
+        <p class="about" id="p3">I studied Microinformatic Systems and Networks Vocational Course <br> for 2 years to become a computer technician.</p>
+        <p class="about" id="p4">In these 2 years I learnt all the basic notions about hardware, software, OS's, <br> office software, networks, domain and different network services, coding and <br> web design and development. </p>
+        <p class="about" id="p5">Due to being an autodidact, in my free time I make different little projects <br> that help me improve my skills as a computer technician and as a programmer <br> and web developer. </p>
+        <p class="about" id="p6">That's the reason behind the creation of Ron Lib, a place where I can upload <br> my class projects and my own ones, and allow everyone to download them, <br> always giving credits to me.</p>
     </div>
     <nav>
         <ul>
+            <li><a href="https://rxnwashere.github.io/ronlib/">Home</a></li>
             <li><a href="https://github.com/rxnwashere/ronlib/tree/main/Apunts_M7_Serveis_2nSMX">Apunts M7 Serveis</a></li>
             <li><a href="https://github.com/rxnwashere/ronlib/tree/main/DOCUMENTACIO_PROJECTE_SINTESIS_2024">Documentació Projecte de sintesis 2024</a></li>
             <li><a href="https://github.com/rxnwashere/ronlib/tree/main/JavaScript">JavaScript</a></li>
@@ -37,8 +43,16 @@
             <li><a href="https://github.com/rxnwashere/ronlib/tree/main/maths">Maths</a></li>
         </ul>
     </nav>
+    <div class="language">
+        <h6 id="langtitle">Select language</h6>
+        <div class="flag" id="es" onclick="updateLanguage('spanish')"></div>
+        <div class="flag" id="cat" onclick="updateLanguage('catalan')"></div>
+        <div class="flag" id="en" onclick="updateLanguage('english')"></div>
+    </div>
     <footer>
         <p>GitHub: &nbsp;<a href="https://github.com/rxnwashere">rxnwashere</a></p>
     </footer>
+    <script src="scripts/main.js"></script>
+    <noscript>Please enable JavaScript to access Ron Lib :)</noscript>
 </body>
 </html>

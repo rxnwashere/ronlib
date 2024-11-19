@@ -35,7 +35,7 @@ header {
 }
 
 #disclaimer {
-    margin-top: 2em;
+    margin-top: 45em;
     text-align: center;
 }
 
@@ -84,6 +84,7 @@ nav li:hover {
     width: 16em;
     height: 7em;
 }
+
 nav a {
     font-size: 1.5em;
     text-decoration: none;
@@ -102,4 +103,39 @@ footer {
 
 footer a {
     color: aqua;
+}
+
+.language {
+    margin-top: -15em;
+    margin-left: 3em;
+    text-indent: 20px;
+}
+
+.language h6 {
+    font-size: large;
+}
+
+#es {
+    background-image: url(../media/Flag_of_Spain.svg.png);
+}
+
+#cat {
+    background-image: url(../media/Flag_of_Catalonia.svg);
+    margin-left: 6em;
+    margin-top: -5em;
+}
+
+#en {
+    background-image: url(../media/Flag_of_the_United_Kingdom.png);
+    background-size: auto;
+    margin-top: -5em;
+    margin-left: 12em;
+    
+}
+
+.flag {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 5em;
+    height: 5em;
 }
